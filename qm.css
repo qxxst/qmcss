@@ -80,8 +80,8 @@ p {
   padding-right: 20%;
 }
 ul {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
 }
 h1 {
   font-weight: 700;
