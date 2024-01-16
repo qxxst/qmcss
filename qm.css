@@ -145,10 +145,6 @@ h2, h3, h4, h5, h6 {
   background-color: var(--qm-tertiary);
 }
 
-#content {
-  min-height: 100vh;
-}
-
 .qm-muted {
   opacity: 0.60;
 }
@@ -237,6 +233,10 @@ h2, h3, h4, h5, h6 {
 }
 
 /* ID-specific rules */
+#content {
+  min-height: 100vh;
+}
+
 #title {
   margin: 0 0;
   padding: 0.4% 0 0.2% 0;
