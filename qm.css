@@ -193,6 +193,7 @@ h2, h3, h4, h5, h6 {
   background-color: var(--qm-black);
 }
 
+/* Containers */
 .qm-video-background {
   position: absolute;
   width: 100%;
