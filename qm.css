@@ -167,6 +167,26 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+.qm-breathing-eternity {
+  color: var(--qm-white);
+  background: linear-gradient(135deg, cyan 0%, blue 25%, purple 50%, fuchsia 100%);
+  background-size: 300% 300%;
+  animation: breathing-eternity 6s ease infinite;
+  background-color: var(--qm-black);
+}
+
+@keyframes breathing-eternity {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* Classes */
 .qm-muted {
   opacity: 0.60;
