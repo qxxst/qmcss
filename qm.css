@@ -19,13 +19,17 @@
   --qm-code-font: 'Inconsolata', monospace;
 }
 
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: var(--qm-primary-font);
+}
+
 .qm-code {
   font-family: var(--qm-code-font);
 }
 
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: var(--qm-primary-font);
+  
   color-scheme: light dark;
   text-align: center !important;
 }
