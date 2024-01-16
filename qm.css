@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --qm-secondary: #101317;
   --qm-tertiary: #505050;
@@ -33,6 +34,25 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center !important;
 }
 
+button:enabled{
+  color: var(--qm-black);
+  background-color: var(--qm-white);
+}
+
+footer {
+  background-size: 300% 300%;
+  background-color: var(--qm-black);
+  color: var(--qm-white);
+}
+
+footer p {
+  padding: 1% 20%
+}
+
+button {
+  border-radius: 8px;
+}
+
 /* Animations */
 .qm-fade-in-out {
   animation: fadeInOut 3s linear infinite;
@@ -54,21 +74,6 @@ body, h1, h2, h3, h4, h5, h6 {
   background-size: 300% 300%;
   animation: breathing 6s ease infinite;
   background-color: var(--qm-black);
-}
-button:enabled{
-  color: var(--qm-black);
-  background-color: var(--qm-white);
-}
-footer {
-  background-size: 300% 300%;
-  background-color: var(--qm-black);
-  color: var(--qm-white);
-}
-footer p {
-  padding: 1% 20%
-}
-button {
-  border-radius: 8px;
 }
 @keyframes breathing {
   0% {
