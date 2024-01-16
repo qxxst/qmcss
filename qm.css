@@ -19,6 +19,10 @@
   --qm-code-font: 'Inconsolata', monospace;
 }
 
+.qm-code {
+  font-family: var(--qm-code-font);
+}
+
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
   font-family: var(--qm-primary-font);
@@ -190,9 +194,6 @@ h2, h3, h4, h5, h6 {
 }
 .qm-filter-grayscale-invert {
   filter: grayscale(100%) invert(1);
-}
-.qm-code {
-  font-family: var(--qm-code-font);
 }
 
 /* ID-specific rules */
