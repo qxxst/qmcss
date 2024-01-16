@@ -187,6 +187,26 @@ h2, h3, h4, h5, h6 {
   }
 }
 
+.qm-rainbow {
+  color: var(--qm-white);
+  background: linear-gradient(135deg, red, orange, green, blue, indigo, violet);
+  background-size: 300% 300%;
+  animation: rainbow 6s ease infinite;
+  background-color: var(--qm-black);
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* Classes */
 .qm-muted {
   opacity: 0.60;
