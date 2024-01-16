@@ -38,6 +38,32 @@ body, h1, h2, h3, h4, h5, h6 {
   background-color: var(--qm-black);
 }
 
+.qm-black {
+  color: var(--qm-white);
+  background-color: var(--qm-black);
+}
+
+.qm-white {
+  color: var(--qm-black);
+  background-color: var(--qm-white);
+  overflow: hidden;
+}
+
+.qm-primary {
+  color: var(--qm-black);
+  background-color: var(--qm-white);
+}
+
+.qm-secondary {
+  color: var(--qm-white);
+  background-color: var(--qm-secondary);
+}
+
+.qm-tertiary {
+  color: var(--qm-white);
+  background-color: var(--qm-tertiary);
+}
+
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
   color-scheme: light dark;
@@ -127,32 +153,6 @@ h2, h3, h4, h5, h6 {
   100% {
     background-position: 0% 50%;
   }
-}
-
-.qm-black {
-  color: var(--qm-white);
-  background-color: var(--qm-black);
-}
-
-.qm-white {
-  color: var(--qm-black);
-  background-color: var(--qm-white);
-  overflow: hidden;
-}
-
-.qm-primary {
-  color: var(--qm-black);
-  background-color: var(--qm-white);
-}
-
-.qm-secondary {
-  color: var(--qm-white);
-  background-color: var(--qm-secondary);
-}
-
-.qm-tertiary {
-  color: var(--qm-white);
-  background-color: var(--qm-tertiary);
 }
 
 .qm-muted {
