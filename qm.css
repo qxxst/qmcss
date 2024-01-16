@@ -28,6 +28,16 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: var(--qm-code-font);
 }
 
+.qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
+  color: var(--qm-black);
+  background-color: var(--qm-white);
+}
+
+.qm-white h1::selection, .qm-white h2::selection, .qm-white h3::selection, .qm-white h4::selection, .qm-white h5::selection, .qm-white h6::selection, .qm-white p::selection {
+  color: var(--qm-white);
+  background-color: var(--qm-black);
+}
+
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
   color-scheme: light dark;
@@ -51,6 +61,35 @@ footer p {
 
 button {
   border-radius: 8px;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+button:enabled:hover {
+  color: var(--qm-white);
+  background: var(--qm-tertiary);
+}
+
+p {
+  font-weight: 400;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+ul {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
 /* Animations */
@@ -88,35 +127,6 @@ button {
   100% {
     background-position: 0% 50%;
   }
-}
-
-img {
-  max-width: 90%;
-  height: auto;
-}
-
-button:enabled:hover {
-  color: var(--qm-white);
-  background: var(--qm-tertiary);
-}
-
-p {
-  font-weight: 400;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-ul {
-  margin-left: 10% !important;
-  margin-right: 10% !important;
-}
-
-h1 {
-  font-weight: 700;
-}
-
-h2, h3, h4, h5, h6 {
-  font-weight: 600;
 }
 
 .qm-black {
@@ -181,16 +191,6 @@ h2, h3, h4, h5, h6 {
 
 .qm-center {
   text-align: center;
-}
-
-.qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
-  color: var(--qm-black);
-  background-color: var(--qm-white);
-}
-
-.qm-white h1::selection, .qm-white h2::selection, .qm-white h3::selection, .qm-white h4::selection, .qm-white h5::selection, .qm-white h6::selection, .qm-white p::selection {
-  color: var(--qm-white);
-  background-color: var(--qm-black);
 }
 
 /* Containers */
