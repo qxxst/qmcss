@@ -64,6 +64,18 @@ body, h1, h2, h3, h4, h5, h6 {
   background-color: var(--qm-tertiary);
 }
 
+.qm-secondary-text-title {
+  font-family: var(--qm-);
+  font-size: 221px;
+  font-weight: 800; /* "ExtraBold" */
+}
+
+.qm-secondary-text-subtext {
+  font-family: var(--qm-secondary-font);
+  font-size: 87px;
+  font-weight: 800; /* "ExtraBold" */
+}
+
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
   color-scheme: light dark;
@@ -171,18 +183,6 @@ h2, h3, h4, h5, h6 {
   padding-top: 35vh;
   padding-bottom: 30vh;
   line-height: 1;
-}
-
-.qm-secondary-text-title {
-  font-family: var(--qm-);
-  font-size: 221px;
-  font-weight: 800; /* "ExtraBold" */
-}
-
-.qm-secondary-text-subtext {
-  font-family: var(--qm-secondary-font);
-  font-size: 87px;
-  font-weight: 800; /* "ExtraBold" */
 }
 
 .qm-center {
