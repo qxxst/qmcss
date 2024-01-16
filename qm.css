@@ -57,6 +57,7 @@ button {
 .qm-fade-in-out {
   animation: fadeInOut 3s linear infinite;
 }
+
 @keyframes fadeInOut {
   0% {
     opacity: 0.5;
@@ -68,6 +69,7 @@ button {
     opacity: 0.5;
   }
 }
+
 .qm-breathing {
   color: var(--qm-white);
   background: linear-gradient(135deg, blue 0%, purple 50%, red 100%);
@@ -75,6 +77,7 @@ button {
   animation: breathing 6s ease infinite;
   background-color: var(--qm-black);
 }
+
 @keyframes breathing {
   0% {
     background-position: 0% 50%;
@@ -86,91 +89,114 @@ button {
     background-position: 0% 50%;
   }
 }
+
 img {
   max-width: 90%;
   height: auto;
 }
+
 button:enabled:hover {
   color: var(--qm-white);
   background: var(--qm-tertiary);
 }
+
 p {
   font-weight: 400;
   padding-left: 20%;
   padding-right: 20%;
 }
+
 ul {
   margin-left: 10% !important;
   margin-right: 10% !important;
 }
+
 h1 {
   font-weight: 700;
 }
+
 h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
+
 .qm-black {
   color: var(--qm-white);
   background-color: var(--qm-black);
 }
+
 .qm-white {
   color: var(--qm-black);
   background-color: var(--qm-white);
   overflow: hidden;
 }
+
 .qm-primary {
   color: var(--qm-black);
   background-color: var(--qm-white);
 }
+
 .qm-secondary {
   color: var(--qm-white);
   background-color: var(--qm-secondary);
 }
+
 .qm-tertiary {
   color: var(--qm-white);
   background-color: var(--qm-tertiary);
 }
+
 #content {
   min-height: 100vh;
 }
+
 .qm-muted {
   opacity: 0.60;
 }
+
 .qm-no-margin {
   margin: 0 0;
 }
+
 .qm-branding-demo {
   min-height: 20vh;
 }
+
 .qm-pseudo-link {
   text-decoration-line: underline;
 }
+
 .qm-secondary-text-container {
   padding-top: 35vh;
   padding-bottom: 30vh;
   line-height: 1;
 }
+
 .qm-secondary-text-title {
   font-family: var(--qm-);
   font-size: 221px;
   font-weight: 800; /* "ExtraBold" */
 }
+
 .qm-secondary-text-subtext {
   font-family: var(--qm-secondary-font);
   font-size: 87px;
   font-weight: 800; /* "ExtraBold" */
 }
+
 .qm-center {
   text-align: center;
 }
+
 .qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
   color: var(--qm-black);
   background-color: var(--qm-white);
 }
+
 .qm-white h1::selection, .qm-white h2::selection, .qm-white h3::selection, .qm-white h4::selection, .qm-white h5::selection, .qm-white h6::selection, .qm-white p::selection {
   color: var(--qm-white);
   background-color: var(--qm-black);
 }
+
 .qm-video-background {
   position: absolute;
   width: 100%;
@@ -181,25 +207,31 @@ h2, h3, h4, h5, h6 {
   opacity: .4;
   left: 0;
 }
+
 .qm-video-container {
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
+
 .qm-video-container h1, .qm-video-container h2, .qm-video-container p, .qm-video-container li {
   position: relative;
   z-index: 1;
   text-shadow: 0px 0px 64px var(--qm-white);
 }
+
 .qm-extraspace {
   padding: 5% 0;
 }
+
 .qm-filter-bloom {
   filter: contrast(1.5) brightness(1.5) saturate(1.5) blur(5px);
 }
+
 .qm-filter-grayscale {
   filter: grayscale(100%);
 }
+
 .qm-filter-grayscale-invert {
   filter: grayscale(100%) invert(1);
 }
