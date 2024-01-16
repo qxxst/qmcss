@@ -29,7 +29,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* General rules */
 body, h1, h2, h3, h4, h5, h6 {
-  
   color-scheme: light dark;
   text-align: center !important;
 }
