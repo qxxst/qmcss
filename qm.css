@@ -167,13 +167,13 @@ h2, h3, h4, h5, h6 {
   }
 }
 
-.qm-breathing-eternity {
+.qm-eternity {
   color: var(--qm-white);
-  animation: breathing-eternity 2.4167s ease infinite;
+  animation: eternity 2.4167s ease infinite;
   background-color: var(--qm-black);
 }
 
-@keyframes breathing-eternity {
+@keyframes eternity {
   0% {
     background-color: var(--qm-black);
   }
