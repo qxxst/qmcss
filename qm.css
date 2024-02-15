@@ -15,9 +15,10 @@
   --qm-black: #000000;
   --qm-white: #FFFFFF;
   --qm-greenscreen: #66FF66;
+  --qm-code: #adff2f;
   --qm-primary-font: 'Inter', sans-serif;
   --qm-secondary-font: 'Montserrat', sans-serif;
-  --qm-code-font: 'Inconsolata', monospace;
+  --qm-code-font: 'Inconsolata', monospace; 
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -26,6 +27,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .qm-code {
   font-family: var(--qm-code-font);
+  color: var(--qm-code);
 }
 
 .qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
