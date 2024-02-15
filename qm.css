@@ -25,11 +25,6 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: var(--qm-primary-font);
 }
 
-.qm-code {
-  font-family: var(--qm-code-font);
-  color: var(--qm-code);
-}
-
 .qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
   color: var(--qm-black);
   background-color: var(--qm-white);
@@ -76,6 +71,11 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: var(--qm-secondary-font);
   font-size: 87px;
   font-weight: 800; /* "ExtraBold" */
+}
+
+.qm-code {
+  font-family: var(--qm-code-font);
+  color: var(--qm-code);
 }
 
 /* General rules */
