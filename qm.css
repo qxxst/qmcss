@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* qm.css v1.4 by Qxxst */
+/* qm.css v1.5 by Qxxst */
 
 /* Importing w3.css */
 @import url('https://www.w3schools.com/w3css/4/w3.css');
@@ -321,10 +321,9 @@ h2, h3, h4, h5, h6 {
 /* ID-specific rules */
 #content {
   min-height: 100vh;
+  padding-top: 0.05vh;
 }
 
 #title {
-  margin: 0 0;
-  padding: 0.4% 0 0.2% 0;
   font-family: var(--qm-secondary-font);
 }
