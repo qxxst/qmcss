@@ -29,6 +29,7 @@
   --qm-white: #FFFFFF;
   --qm-greenscreen: #66FF66;
   --qm-code: #adff2f;
+  --qm-code-link: #66FFFF;
   --qm-primary-font: 'Inter', sans-serif;
   --qm-secondary-font: 'Montserrat', sans-serif;
   --qm-code-font: 'Inconsolata', monospace; 
@@ -89,6 +90,10 @@ body, h1, h2, h3, h4, h5, h6 {
 .qm-code {
   font-family: var(--qm-code-font);
   color: var(--qm-code);
+}
+
+.qm-code a {
+  color: var(--qm-code-link);
 }
 
 /* General rules */
