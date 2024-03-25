@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* qm.css v1.5 by Qxxst */
+/* qm.css v1.6 by Qxxst */
 
 /* Importing w3.css */
 @import url('https://www.w3schools.com/w3css/4/w3.css');
@@ -36,8 +36,13 @@
   --qm-code-font: 'Inconsolata', monospace; 
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body {
   font-family: var(--qm-primary-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  margin: inherit;
 }
 
 .qm-black h1::selection, .qm-black h2::selection, .qm-black h3::selection, .qm-black h4::selection, .qm-black h5::selection, .qm-black h6::selection, .qm-black p::selection {
@@ -343,6 +348,15 @@ a {
   padding: 0.5%;
 }
 
+.qm-bar {
+  display: grid;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0.5% 0;
+  position: relative;
+}
+
 /* Filters */
 .qm-filter-bloom {
   filter: contrast(1.5) brightness(1.5) saturate(1.5) blur(5px);
@@ -362,6 +376,10 @@ a {
   padding-top: 0.05vh;
 }
 
-#title {
+#title-bar {
   font-family: var(--qm-secondary-font);
+}
+
+#title {
+  justify-self: center;
 }
