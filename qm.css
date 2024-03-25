@@ -110,9 +110,7 @@ button:enabled{
 }
 
 footer {
-  background-size: 300% 300%;
-  background-color: var(--qm-black);
-  color: var(--qm-white);
+  display: grid;
 }
 
 footer p {
