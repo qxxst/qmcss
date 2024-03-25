@@ -1,5 +1,5 @@
 # qm.css
-An extension of [W3.CSS](https://www.w3schools.com/w3css/default.asp) that adds new styles, fonts, animations and more.
+Extension of [W3.CSS](https://www.w3schools.com/w3css/default.asp) that adds new styles, fonts, animations and more.
 ## Installation
 To use qm.css, simply add the following line to your website's head:
 
