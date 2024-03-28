@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* qm.css v1.6 by Qxxst */
+/* qm.css v1.6.1 by Qxxst */
 
 /* Importing w3.css */
 @import url('https://www.w3schools.com/w3css/4/w3.css');
@@ -347,7 +347,7 @@ a {
 .qm-modal-content {
   margin: auto;
   position: relative;
-  width: 900px;
+  width: 90%;
   outline: 1px solid white;
   padding: 0.5%;
 }
